@@ -5,7 +5,8 @@ public class Knight : MonoBehaviour
 {
     public AudioSource SFX;
     public AudioSource Sword;
-    public AudioSource[] footsteps;
+    public AudioClip[] footsteps;
+    private AudioSource footstep;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,7 +23,9 @@ public class Knight : MonoBehaviour
     {
         //Debug.Log("Step");
         //SFX.Play();
-        footsteps[Random.Range(0, footsteps.Length)].Play();
+        footstep = GetComponent<AudioSource>();
+        footstep.clip = footsteps[Random.Range(0, footsteps.Length)];
+        footstep.Play();
     }
 
     public void Slice()
