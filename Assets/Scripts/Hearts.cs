@@ -6,6 +6,7 @@ public class Hearts : MonoBehaviour
 
     Animator heartController;
     SpriteRenderer sr;
+    public SpriteRenderer zombie;
     void Start()
     {
         heartController = GetComponent<Animator>();
@@ -17,10 +18,12 @@ public class Hearts : MonoBehaviour
     {
 		//if zombie is over heart
 		//heart is destroyed
+        if(zombie.bounds.Contains(transform.position))
+        {
+            heartController.SetBool("IsDestroyed", true);
+        }
 		
 	}
-
-    }
 
     void Destroy(){
         sr.enabled = false;

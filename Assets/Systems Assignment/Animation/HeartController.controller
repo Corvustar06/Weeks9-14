@@ -40,7 +40,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isDestoryed
+    m_ConditionEvent: IsDestroyed
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1612935264223367622}
@@ -65,7 +65,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isDestoryed
+    m_ConditionEvent: IsDestroyed
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1612935264223367622}
@@ -90,7 +90,7 @@ AnimatorController:
   m_Name: HeartController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isDestoryed
+  - m_Name: IsDestroyed
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -118,7 +118,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isDestoryed
+    m_ConditionEvent: IsDestroyed
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2064626807176385121}
