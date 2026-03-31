@@ -20,8 +20,6 @@ public class Hearts : MonoBehaviour
 		
 	}
 
-	void TriggerDestroy(){
-        heartController.SetBool("IsDestroyed", true);
     }
 
     void Destroy(){
