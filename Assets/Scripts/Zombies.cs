@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Zombies : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class Zombies : MonoBehaviour
 
     Animator zombieController;
     public float speed;
+    public SpriteRenderer[] hearts;
 
     void Start()
     {
@@ -19,5 +21,17 @@ public class Zombies : MonoBehaviour
 		Vector2 pos = transform.position;
 		pos.x -= speed * Time.deltaTime;
 		transform.position = pos;
-	}
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (hearts[i] != null)
+            {
+                if (hearts[i].bounds.Contains(transform.position))
+                {
+                    hearts[i].GetComponent<Hearts>().startBreak();
+
+                }
+            }
+        }
+    }
 }
