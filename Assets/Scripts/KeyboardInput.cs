@@ -41,4 +41,20 @@ public class KeyboardInput : MonoBehaviour
 	{
 		movement = context.ReadValue<Vector2>();
 	}
+
+	public void OnAttack(InputAction.CallbackContext context)
+	{
+		Debug.Log("Attack!" + context.phase);
+	}
+
+	public void OnPrev(InputAction.CallbackContext context)
+	{
+		Debug.Log("Prev"+context.phase);
+	}
+
+	public void OnNext(InputAction.CallbackContext context)
+	{
+		Debug.Log("Next"+context.phase);
+	}
+
 }

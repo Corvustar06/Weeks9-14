@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: ee4f0cd696ed0b14aa6f65928a519cb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2709277967288568243
+    second: 96x96 - Ordinance Assets-Sheet_0
+  - first:
+      213: -4634770230793509759
+    second: 96x96 - Ordinance Assets-Sheet_1
+  - first:
+      213: 6232208728899156512
+    second: 96x96 - Ordinance Assets-Sheet_2
+  - first:
+      213: -8034142658569380552
+    second: 96x96 - Ordinance Assets-Sheet_3
+  - first:
+      213: 734363433116458271
+    second: 96x96 - Ordinance Assets-Sheet_4
+  - first:
+      213: -2400872079840767899
+    second: 96x96 - Ordinance Assets-Sheet_5
+  - first:
+      213: -9086400723037281005
+    second: 96x96 - Ordinance Assets-Sheet_6
+  - first:
+      213: 6849716707775907653
+    second: 96x96 - Ordinance Assets-Sheet_7
+  - first:
+      213: 8827986496384499511
+    second: 96x96 - Ordinance Assets-Sheet_8
+  - first:
+      213: -3969512255692400080
+    second: 96x96 - Ordinance Assets-Sheet_9
+  - first:
+      213: 5884550676325308054
+    second: 96x96 - Ordinance Assets-Sheet_10
+  - first:
+      213: 4192719018319339307
+    second: 96x96 - Ordinance Assets-Sheet_11
+  - first:
+      213: 5333141537963624161
+    second: 96x96 - Ordinance Assets-Sheet_12
+  - first:
+      213: -1616994369141679626
+    second: 96x96 - Ordinance Assets-Sheet_13
+  - first:
+      213: -1304944553628786406
+    second: 96x96 - Ordinance Assets-Sheet_14
+  - first:
+      213: 2284047288390078550
+    second: 96x96 - Ordinance Assets-Sheet_15
+  - first:
+      213: -4049570489785686876
+    second: 96x96 - Ordinance Assets-Sheet_16
+  - first:
+      213: -6285788696433447553
+    second: 96x96 - Ordinance Assets-Sheet_17
+  - first:
+      213: -853895867819895352
+    second: 96x96 - Ordinance Assets-Sheet_18
+  - first:
+      213: -3694694627716894889
+    second: 96x96 - Ordinance Assets-Sheet_19
+  - first:
+      213: 2927466647817392183
+    second: 96x96 - Ordinance Assets-Sheet_20
+  - first:
+      213: -5651080247996912099
+    second: 96x96 - Ordinance Assets-Sheet_21
+  - first:
+      213: 624960389088882816
+    second: 96x96 - Ordinance Assets-Sheet_22
+  - first:
+      213: -1105651897095260899
+    second: 96x96 - Ordinance Assets-Sheet_23
+  - first:
+      213: 7941009742422438686
+    second: 96x96 - Ordinance Assets-Sheet_24
+  - first:
+      213: 1676843396574760364
+    second: 96x96 - Ordinance Assets-Sheet_25
+  - first:
+      213: -7207152898497894480
+    second: 96x96 - Ordinance Assets-Sheet_26
+  - first:
+      213: -6399880029446949478
+    second: 96x96 - Ordinance Assets-Sheet_27
+  - first:
+      213: -9065914781370483765
+    second: 96x96 - Ordinance Assets-Sheet_28
+  - first:
+      213: -4890127472682965330
+    second: 96x96 - Ordinance Assets-Sheet_29
+  - first:
+      213: 8011981343101720665
+    second: 96x96 - Ordinance Assets-Sheet_30
+  - first:
+      213: 6778312266988726438
+    second: 96x96 - Ordinance Assets-Sheet_31
+  - first:
+      213: 1202225878977578214
+    second: 96x96 - Ordinance Assets-Sheet_32
+  - first:
+      213: -9143153851188653817
+    second: 96x96 - Ordinance Assets-Sheet_33
+  - first:
+      213: 1423058792878757979
+    second: 96x96 - Ordinance Assets-Sheet_34
+  - first:
+      213: -1855818832350449232
+    second: 96x96 - Ordinance Assets-Sheet_35
+  - first:
+      213: -571907885327890738
+    second: 96x96 - Ordinance Assets-Sheet_36
+  - first:
+      213: -5644191219147558733
+    second: 96x96 - Ordinance Assets-Sheet_37
+  - first:
+      213: 5978421570740671474
+    second: 96x96 - Ordinance Assets-Sheet_38
+  - first:
+      213: 2773671870957607053
+    second: 96x96 - Ordinance Assets-Sheet_39
+  - first:
+      213: 2441070377225880803
+    second: 96x96 - Ordinance Assets-Sheet_40
+  - first:
+      213: 7298489239875821195
+    second: 96x96 - Ordinance Assets-Sheet_41
+  - first:
+      213: -8389621321271582744
+    second: 96x96 - Ordinance Assets-Sheet_42
+  - first:
+      213: -1899324652978848984
+    second: 96x96 - Ordinance Assets-Sheet_43
+  - first:
+      213: 2933923996239546252
+    second: 96x96 - Ordinance Assets-Sheet_44
+  - first:
+      213: 2702310123492365010
+    second: 96x96 - Ordinance Assets-Sheet_45
+  - first:
+      213: -426230620186225502
+    second: 96x96 - Ordinance Assets-Sheet_46
+  - first:
+      213: 3366919879720277390
+    second: 96x96 - Ordinance Assets-Sheet_47
+  - first:
+      213: 6135688898967340643
+    second: 96x96 - Ordinance Assets-Sheet_48
+  - first:
+      213: 5993528878410605565
+    second: 96x96 - Ordinance Assets-Sheet_49
+  - first:
+      213: -406081023548282739
+    second: 96x96 - Ordinance Assets-Sheet_50
+  - first:
+      213: 3567883119221980490
+    second: 96x96 - Ordinance Assets-Sheet_51
+  - first:
+      213: -8132458923392004462
+    second: 96x96 - Ordinance Assets-Sheet_52
+  - first:
+      213: 5042620692757225617
+    second: 96x96 - Ordinance Assets-Sheet_53
+  - first:
+      213: -1962357731036749458
+    second: 96x96 - Ordinance Assets-Sheet_54
+  - first:
+      213: 6168556011993544054
+    second: 96x96 - Ordinance Assets-Sheet_55
+  - first:
+      213: 1816305876724826347
+    second: 96x96 - Ordinance Assets-Sheet_56
+  - first:
+      213: -827784969290568817
+    second: 96x96 - Ordinance Assets-Sheet_57
+  - first:
+      213: -1866572827611174171
+    second: 96x96 - Ordinance Assets-Sheet_58
+  - first:
+      213: 4508190500054129995
+    second: 96x96 - Ordinance Assets-Sheet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46f8f90b06b66ad0800000000000000
+      internalID: -2709277967288568243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1846ff9f70dfdafb0800000000000000
+      internalID: -4634770230793509759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7f1cb1d04d7650800000000000000
+      internalID: 6232208728899156512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dd82991ddf08090800000000000000
+      internalID: -8034142658569380552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d51fec6abf03a00800000000000000
+      internalID: 734363433116458271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 523
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56010f150936eaed0800000000000000
+      internalID: -2400872079840767899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 527
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a2882fae96e180800000000000000
+      internalID: -9086400723037281005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 521
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5478a0bed051f0f50800000000000000
+      internalID: 6849716707775907653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 519
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f71fe12fe438a70800000000000000
+      internalID: 8827986496384499511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 521
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a15e382a579e8c0800000000000000
+      internalID: -3969512255692400080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696972599af1aa150800000000000000
+      internalID: 5884550676325308054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd2f1bbb78f2a30800000000000000
+      internalID: 4192719018319339307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6c33bf8ff130a40800000000000000
+      internalID: 5333141537963624161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9d08f30384f89e0800000000000000
+      internalID: -1616994369141679626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a112065a7d7e3ede0800000000000000
+      internalID: -1304944553628786406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 419
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6505faa48e092bf10800000000000000
+      internalID: 2284047288390078550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 423
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a46b6758190dc7c0800000000000000
+      internalID: -4049570489785686876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 417
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d2befeb7464c8a0800000000000000
+      internalID: -6285788696433447553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 415
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5db6b7b3a5624f0800000000000000
+      internalID: -853895867819895352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 417
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fe369bfcec9bcc0800000000000000
+      internalID: -3694694627716894889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73095f2e76370a820800000000000000
+      internalID: 2927466647817392183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eeae484745391b0800000000000000
+      internalID: -5651080247996912099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0803556a92e4ca800800000000000000
+      internalID: 624960389088882816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d157664257fe7a0f0800000000000000
+      internalID: -1105651897095260899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1371079942243e60800000000000000
+      internalID: 7941009742422438686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 327
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad4cc45f28554710800000000000000
+      internalID: 1676843396574760364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b72b1bbf9c0bfb90800000000000000
+      internalID: -7207152898497894480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 323
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95b2bf650f0f27a0800000000000000
+      internalID: -6399880029446949478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 325
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbf2742a866f2280800000000000000
+      internalID: -9065914781370483765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 327
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea66a5cf8f6c22cb0800000000000000
+      internalID: -4890127472682965330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95892ae0596403f60800000000000000
+      internalID: 8011981343101720665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a829820817611e50800000000000000
+      internalID: 6778312266988726438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e48d38311a2fa010800000000000000
+      internalID: 1202225878977578214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701d72dc30efc1180800000000000000
+      internalID: -9143153851188653817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d804be68bfb310800000000000000
+      internalID: 1423058792878757979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 229
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b17542ca9ece36e0800000000000000
+      internalID: -1855818832350449232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec649c2fecc2018f0800000000000000
+      internalID: -571907885327890738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 225
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0b45a8dfdcba1b0800000000000000
+      internalID: -5644191219147558733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 227
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d7895ebe97f250800000000000000
+      internalID: 5978421570740671474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 227
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88dbeffedf0e7620800000000000000
+      internalID: 2773671870957607053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e40742239c60e120800000000000000
+      internalID: 2441070377225880803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e1fcb6b41794560800000000000000
+      internalID: 7298489239875821195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef5091cbd3129b80800000000000000
+      internalID: -8389621321271582744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bbd0a8a4e34a5e0800000000000000
+      internalID: -1899324652978848984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874ad9745467b820800000000000000
+      internalID: 2933923996239546252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d254b76db8808520800000000000000
+      internalID: 2702310123492365010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 129
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4d76b5289b51af0800000000000000
+      internalID: -426230620186225502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e859de9bac3b9be20800000000000000
+      internalID: 3366919879720277390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 137
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366814b9b88562550800000000000000
+      internalID: 6135688898967340643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 137
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3a5b482ca4d2350800000000000000
+      internalID: 5993528878410605565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88a069e57f4d5af0800000000000000
+      internalID: -406081023548282739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4db6512bcaa38130800000000000000
+      internalID: 3567883119221980490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e83c062b3b32f80800000000000000
+      internalID: -8132458923392004462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19024d89dccfaf540800000000000000
+      internalID: 5042620692757225617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6120576a0e44c4e0800000000000000
+      internalID: -1962357731036749458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675b9ffa20d1b9550800000000000000
+      internalID: 6168556011993544054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 31
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be043a95290d43910800000000000000
+      internalID: 1816305876724826347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b270bc4fd1384f0800000000000000
+      internalID: -827784969290568817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 39
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eae6de17e99816e0800000000000000
+      internalID: -1866572827611174171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 96x96 - Ordinance Assets-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 37
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d5487df5f409e30800000000000000
+      internalID: 4508190500054129995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      96x96 - Ordinance Assets-Sheet_0: -2709277967288568243
+      96x96 - Ordinance Assets-Sheet_1: -4634770230793509759
+      96x96 - Ordinance Assets-Sheet_10: 5884550676325308054
+      96x96 - Ordinance Assets-Sheet_11: 4192719018319339307
+      96x96 - Ordinance Assets-Sheet_12: 5333141537963624161
+      96x96 - Ordinance Assets-Sheet_13: -1616994369141679626
+      96x96 - Ordinance Assets-Sheet_14: -1304944553628786406
+      96x96 - Ordinance Assets-Sheet_15: 2284047288390078550
+      96x96 - Ordinance Assets-Sheet_16: -4049570489785686876
+      96x96 - Ordinance Assets-Sheet_17: -6285788696433447553
+      96x96 - Ordinance Assets-Sheet_18: -853895867819895352
+      96x96 - Ordinance Assets-Sheet_19: -3694694627716894889
+      96x96 - Ordinance Assets-Sheet_2: 6232208728899156512
+      96x96 - Ordinance Assets-Sheet_20: 2927466647817392183
+      96x96 - Ordinance Assets-Sheet_21: -5651080247996912099
+      96x96 - Ordinance Assets-Sheet_22: 624960389088882816
+      96x96 - Ordinance Assets-Sheet_23: -1105651897095260899
+      96x96 - Ordinance Assets-Sheet_24: 7941009742422438686
+      96x96 - Ordinance Assets-Sheet_25: 1676843396574760364
+      96x96 - Ordinance Assets-Sheet_26: -7207152898497894480
+      96x96 - Ordinance Assets-Sheet_27: -6399880029446949478
+      96x96 - Ordinance Assets-Sheet_28: -9065914781370483765
+      96x96 - Ordinance Assets-Sheet_29: -4890127472682965330
+      96x96 - Ordinance Assets-Sheet_3: -8034142658569380552
+      96x96 - Ordinance Assets-Sheet_30: 8011981343101720665
+      96x96 - Ordinance Assets-Sheet_31: 6778312266988726438
+      96x96 - Ordinance Assets-Sheet_32: 1202225878977578214
+      96x96 - Ordinance Assets-Sheet_33: -9143153851188653817
+      96x96 - Ordinance Assets-Sheet_34: 1423058792878757979
+      96x96 - Ordinance Assets-Sheet_35: -1855818832350449232
+      96x96 - Ordinance Assets-Sheet_36: -571907885327890738
+      96x96 - Ordinance Assets-Sheet_37: -5644191219147558733
+      96x96 - Ordinance Assets-Sheet_38: 5978421570740671474
+      96x96 - Ordinance Assets-Sheet_39: 2773671870957607053
+      96x96 - Ordinance Assets-Sheet_4: 734363433116458271
+      96x96 - Ordinance Assets-Sheet_40: 2441070377225880803
+      96x96 - Ordinance Assets-Sheet_41: 7298489239875821195
+      96x96 - Ordinance Assets-Sheet_42: -8389621321271582744
+      96x96 - Ordinance Assets-Sheet_43: -1899324652978848984
+      96x96 - Ordinance Assets-Sheet_44: 2933923996239546252
+      96x96 - Ordinance Assets-Sheet_45: 2702310123492365010
+      96x96 - Ordinance Assets-Sheet_46: -426230620186225502
+      96x96 - Ordinance Assets-Sheet_47: 3366919879720277390
+      96x96 - Ordinance Assets-Sheet_48: 6135688898967340643
+      96x96 - Ordinance Assets-Sheet_49: 5993528878410605565
+      96x96 - Ordinance Assets-Sheet_5: -2400872079840767899
+      96x96 - Ordinance Assets-Sheet_50: -406081023548282739
+      96x96 - Ordinance Assets-Sheet_51: 3567883119221980490
+      96x96 - Ordinance Assets-Sheet_52: -8132458923392004462
+      96x96 - Ordinance Assets-Sheet_53: 5042620692757225617
+      96x96 - Ordinance Assets-Sheet_54: -1962357731036749458
+      96x96 - Ordinance Assets-Sheet_55: 6168556011993544054
+      96x96 - Ordinance Assets-Sheet_56: 1816305876724826347
+      96x96 - Ordinance Assets-Sheet_57: -827784969290568817
+      96x96 - Ordinance Assets-Sheet_58: -1866572827611174171
+      96x96 - Ordinance Assets-Sheet_59: 4508190500054129995
+      96x96 - Ordinance Assets-Sheet_6: -9086400723037281005
+      96x96 - Ordinance Assets-Sheet_7: 6849716707775907653
+      96x96 - Ordinance Assets-Sheet_8: 8827986496384499511
+      96x96 - Ordinance Assets-Sheet_9: -3969512255692400080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
