@@ -19,10 +19,13 @@ public class Hearts : MonoBehaviour
     {
         //if zombie is over heart
         //heart is destroyed
-        if (heartBroken)
-        {
-            heartController.SetBool("IsDestroyed", true);
-        }
+		//if (heartBroken)
+		//{
+		//    heartController.SetBool("IsDestroyed", true);
+
+		//}
+		heartController = GetComponent<Animator>();
+		sr = GetComponent<SpriteRenderer>();
 
     }
 
