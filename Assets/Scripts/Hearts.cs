@@ -18,14 +18,6 @@ public class Hearts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if zombie is over heart
-        //heart is destroyed
-        //if (heartBroken)
-        //{
-        //    heartController.SetBool("IsDestroyed", true);
-
-        //}
-        
 
     }
 
