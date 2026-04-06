@@ -1,37 +1,40 @@
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Hearts : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    Animator heartController;
+    public Animator heartController;
     SpriteRenderer sr;
     public SpriteRenderer zombie;
-    public bool heartBroken = false;
+    //bool heartBroken = false;
     void Start()
     {
-        heartController = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-    }
+		heartController = GetComponent<Animator>();
+		sr = GetComponent<SpriteRenderer>();
+	}
 
     // Update is called once per frame
     void Update()
     {
         //if zombie is over heart
         //heart is destroyed
-		//if (heartBroken)
-		//{
-		//    heartController.SetBool("IsDestroyed", true);
+        //if (heartBroken)
+        //{
+        //    heartController.SetBool("IsDestroyed", true);
 
-		//}
-		heartController = GetComponent<Animator>();
-		sr = GetComponent<SpriteRenderer>();
+        //}
+        
 
     }
 
     public void startBreak(){
-        heartBroken = true;
-    }
+		
+		//heartBroken = true;
+		heartController.SetBool("IsDestroyed", true);
+        heartController.SetTrigger("Destroy");
+	}
 
     void Destroy(){
         sr.enabled = false;

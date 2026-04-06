@@ -10,11 +10,12 @@ public class ZombieDespawner : MonoBehaviour
     public bool hasEntered = false;
     void Start()
     {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
 	}
 }

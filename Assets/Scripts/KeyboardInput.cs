@@ -45,6 +45,9 @@ public class KeyboardInput : MonoBehaviour
 	public void OnAttack(InputAction.CallbackContext context)
 	{
 		Debug.Log("Attack!" + context.phase);
+		//Spawn an invisible attack hitbox
+		//check if zombie and hitbox intersect
+		//zombie takes hit or doesn't
 	}
 
 	public void OnPrev(InputAction.CallbackContext context)
