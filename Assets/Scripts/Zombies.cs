@@ -18,20 +18,6 @@ public class Zombies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Vector2 pos = transform.position;
-		pos.x -= speed * Time.deltaTime;
-		transform.position = pos;
 
-        for (int i = 0; i < hearts.Length; i++)
-        {
-            if (hearts[i] != null)
-            {
-                if (hearts[i].bounds.Contains(transform.position))
-                {
-                    hearts[i].GetComponent<Hearts>().startBreak();
-
-                }
-            }
-        }
     }
 }
