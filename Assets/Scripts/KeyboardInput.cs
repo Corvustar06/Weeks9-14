@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class KeyboardInput : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class KeyboardInput : MonoBehaviour
 	SpriteRenderer sr;
 	bool isMoving = false;
 	bool forward = false;
+	public int currentSlot = 0;
 
 	void Start()
     {
@@ -52,12 +54,34 @@ public class KeyboardInput : MonoBehaviour
 
 	public void OnPrev(InputAction.CallbackContext context)
 	{
-		Debug.Log("Prev"+context.phase);
+		if(context.performed){
+			
+			if (currentSlot == 0)
+			{
+				currentSlot = 2;
+			}
+			else
+			{
+				currentSlot -= 1;
+			}
+		}
+		
 	}
 
 	public void OnNext(InputAction.CallbackContext context)
 	{
-		Debug.Log("Next"+context.phase);
+		if (context.performed)
+		{
+			
+			if (currentSlot == 2)
+			{
+				currentSlot = 0;
+			}
+			else
+			{
+				currentSlot += 1;
+			}
+		}
 	}
 
 }

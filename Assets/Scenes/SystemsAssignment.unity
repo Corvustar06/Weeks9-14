@@ -2811,6 +2811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardInput
   speed: 5
   movement: {x: 0, y: 0}
+  currentSlot: 0
 --- !u!1 &1074210822
 GameObject:
   m_ObjectHideFlags: 0
