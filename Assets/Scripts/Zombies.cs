@@ -6,8 +6,9 @@ public class Zombies : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public Animator zombieController;
-    public float speed;
+    public float speed, health;
     public bool inHeart = false;
+    public int type;
 
     void Start()
     {

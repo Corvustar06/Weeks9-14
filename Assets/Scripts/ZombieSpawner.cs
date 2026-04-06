@@ -11,16 +11,21 @@ public class ZombieSpawner : MonoBehaviour
     float time=0;
     float timer = 6;
     float timerMax=6;
+
     int ranMax = 60;
     int ranNum;
     int zomType = 1;
+
     public GameObject zom, spawnedZom;
     public List<GameObject> zombies, hearts;
     public GameObject heart, spawnedHeart;
     public float[] yCoords = { 0.78f, -4.35f, -2.64f, -0.92f, 2.69f };
+
     public ZombieDespawner despawner;
     public Zombies zomScript;
+
     public SpriteRenderer heartRenderer;
+
 	void Start()
     {
         spawnHearts();
@@ -90,6 +95,7 @@ public class ZombieSpawner : MonoBehaviour
 
         timer -= Time.deltaTime;
 
+        //checks to despawn zombies that have left the game bounds
         for(int i = 0;i<zombies.Count;i++){
 			GameObject activeZom = zombies[i];
 			despawner = activeZom.GetComponent<ZombieDespawner>();
@@ -99,6 +105,12 @@ public class ZombieSpawner : MonoBehaviour
 			{
 				despawner.hasEntered = true;
 			}
+
+            //Bottom row zombies weren't despawning for some reason. I wish I could make them work with the rest of the code, but 
+            //for now, this is a fix that makes sure they despawn after they've moved far enough.
+            if(zombro.x<-15){
+                despawner.hasEntered = true;
+            }
 
 			if (despawner.hasEntered)
 			{
@@ -113,6 +125,7 @@ public class ZombieSpawner : MonoBehaviour
 			}
 		}
 
+        //checks if zombies have reached the hearts
         for (int i = 0; i < zombies.Count; i++)
         {
             GameObject activeZom = zombies[i];
@@ -160,6 +173,25 @@ public class ZombieSpawner : MonoBehaviour
 
 		zomScript.zombieController = spawnedZom.GetComponent<Animator>();
 		zomScript.zombieController.SetBool("IsMoving", true);
+
+        if (zomType == 1)
+        {
+            zomScript.health = 10;
+            zomScript.speed = 1;
+            zomScript.type = 1;
+        }
+        else if (zomType == 2)
+        {
+            zomScript.health = 10;
+            zomScript.speed = 2;
+            zomScript.type = 2;
+        }
+        else
+        {
+            zomScript.health = 20;
+            zomScript.speed = 0.5f;
+            zomScript.type = 3;
+        }
 
 		zombies.Add(spawnedZom);
     }
