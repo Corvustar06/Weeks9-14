@@ -19,12 +19,15 @@ public class ZombieSpawner : MonoBehaviour
     public GameObject zom, spawnedZom;
     public List<GameObject> zombies, hearts;
     public GameObject heart, spawnedHeart;
-    public GameObject bombHitBox,swordHitBox;
+    public GameObject bombHitBox,swordHitBox, bulletHitBox;
     public GameObject bomb, spawnedBomb;
-    public GameObject player;
+    public GameObject player, bulletSpawn;
     public float[] yCoords = { 0.78f, -4.35f, -2.64f, -0.92f, 2.69f };
 
-    public ZombieDespawner despawner;
+	public GameObject bullet, spawnedBullet;
+	public List<GameObject> bullets;
+
+	public ZombieDespawner despawner;
     public Zombies zomScript;
     public Bombs bombScript;
 
@@ -188,6 +191,19 @@ public class ZombieSpawner : MonoBehaviour
                 bombScript.sploding = false;
             }
         }
+
+        bulletDamage();
+
+        for(int i=0; i< bullets.Count; i++){
+            GameObject activeBullet = bullets[i];
+            MoveBullet bulletScript = activeBullet.GetComponent<MoveBullet>();
+            if (bulletScript.transform.position.x > 10)
+            {
+                bullets.Remove(activeBullet);
+                Destroy(activeBullet);
+            }
+        }
+        
 	}
 
     //random spawns zombies from a random number that changes over time
@@ -284,20 +300,53 @@ public class ZombieSpawner : MonoBehaviour
 			{
 				zomScript.health -= 5;
 				zomScript.zombieController.SetTrigger("IsHit");
+
 			}
 
 
 		}
 	}
 
-    public void attack(int weapon){
+	public void spawnBullet()
+	{
+		spawnedBullet = Instantiate(bullet, bulletSpawn.transform.position, Quaternion.Euler(0,0,-90));
+		MoveBullet bulletScript = spawnedBullet.GetComponent<MoveBullet>();
+		bulletScript.sr = spawnedBullet.GetComponent<SpriteRenderer>();
+        bulletHitBox = bulletScript.hitBox;
+		bullets.Add(spawnedBullet);
+	}
+
+    public void bulletDamage(){
+        for(int i = 0;i < zombies.Count;i++){
+            GameObject activeZom = zombies[i];
+            zomScript = activeZom.GetComponent<Zombies>();
+            
+
+            for (int j = 0; j < bullets.Count; j++)
+            {
+                GameObject activeBullet = bullets[j];
+                MoveBullet bulletScript = activeBullet.GetComponent<MoveBullet>();
+				SpriteRenderer hitRenderer = bulletHitBox.GetComponent<SpriteRenderer>();
+
+				if (hitRenderer.bounds.Contains(zomScript.transform.position))
+                {
+                    zomScript.health -= 5;
+                    zomScript.zombieController.SetTrigger("IsHit");
+                    bullets.Remove(activeBullet);
+                    Destroy(activeBullet);
+                }
+            }
+        }
+    }
+
+	public void attack(int weapon){
         if (weapon == 0)
         {
             spawnBomb();
         }
         else if (weapon == 1)
         {
-            
+            spawnBullet();
         }
         else if (weapon == 2)
         {

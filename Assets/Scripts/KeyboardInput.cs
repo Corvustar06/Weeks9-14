@@ -15,6 +15,7 @@ public class KeyboardInput : MonoBehaviour
 	bool forward = false;
 	public int currentSlot = 0;
 	public UnityEvent<int> OnSwapWeapon,OnAttacking;
+	public UnityEvent OnSwordHit, OnGunHit;
 	
 
 	void Start()
@@ -52,6 +53,14 @@ public class KeyboardInput : MonoBehaviour
 		if (context.performed)
 		{
 			OnAttacking.Invoke(currentSlot);
+			if (currentSlot == 2)
+			{
+				OnSwordHit.Invoke();
+			}
+			else if (currentSlot == 1)
+			{
+				OnGunHit.Invoke();
+			}
 		}
 	}
 
