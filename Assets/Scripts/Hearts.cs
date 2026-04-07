@@ -21,6 +21,7 @@ public class Hearts : MonoBehaviour
 
     }
 
+    //triggers the heart breaking animation
     public void startBreak(){
 		
 		//heartBroken = true;
@@ -28,6 +29,7 @@ public class Hearts : MonoBehaviour
         heartController.SetTrigger("Destroy");
 	}
 
+    //hides the heart from the scene
     void Destroy(){
         sr.enabled = false;
     }

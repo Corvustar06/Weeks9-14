@@ -12,6 +12,7 @@ public class Guns : MonoBehaviour
 		animator = GetComponent<Animator>();
 		sr = GetComponent<SpriteRenderer>();
 		startHit();
+		//hides the gun when the scene starts
 		onGunFire.Invoke();
 	}
 
@@ -21,12 +22,14 @@ public class Guns : MonoBehaviour
         
     }
 
+	//starts the bullet firing animation
 	public void startHit()
 	{
 		animator.SetBool("buttonPressed", true);
 		sr.enabled = true;
 	}
 
+	//stops the bullet firing animation and hides the sprite
 	public void endHit()
 	{
 		animator.SetBool("buttonPressed", false);

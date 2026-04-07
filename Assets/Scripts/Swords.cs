@@ -20,11 +20,13 @@ public class Swords : MonoBehaviour
         
     }
 
+    //triggers the beginning of the sword swinging animation
     public void startHit(){
         animator.SetBool("buttonPressed", true);
         sr.enabled = true;
     }
 
+    //stops the sword swinging animation
     public void endHit()
     {
         animator.SetBool("buttonPressed", false);

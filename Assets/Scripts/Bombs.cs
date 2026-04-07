@@ -22,12 +22,14 @@ public class Bombs : MonoBehaviour
     {
         Vector2 pos = transform.position;
         pos.x += velocity.x;
+        //stop changing the velocity once it's stopped
         if (velocity.x > 0)
         {
             velocity.x += acceleration.x;
         }
         else{
             velocity.x = 0;
+            //starts the explosion once the bomb has stopped moving
             if(isMoving){
                 isMoving = false;
                 animator.SetBool("isSploding", true);
@@ -36,10 +38,12 @@ public class Bombs : MonoBehaviour
         transform.position = pos;
     }
 
+    //starts the explosion
     public void damage(){
         sploding = true;
     }
 
+    //stops the animations from playing after the first time
     public void destroy(){
         animator.SetBool("isSploding", false);
         sploding = false;

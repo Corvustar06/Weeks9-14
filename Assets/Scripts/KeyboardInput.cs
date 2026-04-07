@@ -27,8 +27,10 @@ public class KeyboardInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		//makes the player moves based on the playerinput chaning the movement variable
 		transform.position += (Vector3)movement * speed * Time.deltaTime;
 
+		//checks in the player is still or moving
 		if (movement.x != 0 || movement.y != 0)
 		{
 			isMoving = true;
@@ -38,11 +40,15 @@ public class KeyboardInput : MonoBehaviour
 			isMoving = false;
 		}
 
+		//whichever it is, it sets the paramater in the animator to be the same
 		mushroomController.SetBool("isMoving", isMoving);
+		//if they are moving forward or back / up or down
 		forward = movement.x > 0 || movement.y > 0;
+		//sets the same in the animator
 		mushroomController.SetBool("forward", forward);
 	}
 
+	//makes the player move
 	public void OnMove(InputAction.CallbackContext context)
 	{
 		movement = context.ReadValue<Vector2>();
@@ -50,9 +56,12 @@ public class KeyboardInput : MonoBehaviour
 
 	public void OnAttack(InputAction.CallbackContext context)
 	{
+	// so it's only triggered once
 		if (context.performed)
 		{
+			//triggers a function in the zombieSpawner script
 			OnAttacking.Invoke(currentSlot);
+			//checks if the gun or the sword are being used so that it can make them visible in the scene
 			if (currentSlot == 2)
 			{
 				OnSwordHit.Invoke();
@@ -67,7 +76,7 @@ public class KeyboardInput : MonoBehaviour
 	public void OnPrev(InputAction.CallbackContext context)
 	{
 		if(context.performed){
-			
+			//makes sure that their slot switching loops between 0,1, and 2 so we know which weapon is being used
 			if (currentSlot == 0)
 			{
 				currentSlot = 2;
@@ -76,7 +85,7 @@ public class KeyboardInput : MonoBehaviour
 			{
 				currentSlot -= 1;
 			}
-
+			//sends this choice into another script to be referenced
 			OnSwapWeapon.Invoke(currentSlot);
 		}
 		
@@ -86,7 +95,8 @@ public class KeyboardInput : MonoBehaviour
 	{
 		if (context.performed)
 		{
-			
+			//makes sure that their slot switching loops between 0,1, and 2 so we know which weapon is being used
+
 			if (currentSlot == 2)
 			{
 				currentSlot = 0;
@@ -95,6 +105,7 @@ public class KeyboardInput : MonoBehaviour
 			{
 				currentSlot += 1;
 			}
+			//sends this choice into another script to be referenced
 			OnSwapWeapon.Invoke(currentSlot);
 		}
 	}

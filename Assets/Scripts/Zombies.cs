@@ -5,6 +5,7 @@ public class Zombies : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
+    //the zombies specific stats and animator
     public Animator zombieController;
     public float speed, health;
     public bool inHeart = false;
@@ -22,7 +23,8 @@ public class Zombies : MonoBehaviour
     {
 		
    }
-
+   
+   //destroys itself when triggered
    public void destroyer(){
         Destroy(zom);
    }
