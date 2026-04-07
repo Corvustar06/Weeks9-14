@@ -2398,10 +2398,13 @@ MonoBehaviour:
   spawnedHeart: {fileID: 0}
   bombHitBox: {fileID: 0}
   swordHitBox: {fileID: 565951643}
+  bulletHitBox: {fileID: 0}
   bomb: {fileID: 2250984365935367047, guid: 0ecbce655adddc0478fe5b2dfc42a882, type: 3}
   spawnedBomb: {fileID: 0}
   player: {fileID: 1005670213}
   bulletSpawn: {fileID: 1297880047}
+  col1: {r: 0.96981126, g: 0.6109154, b: 0.5324812, a: 1}
+  col2: {r: 0.5449127, g: 0.67773104, b: 0.9924528, a: 1}
   yCoords:
   - 0.78
   - -4.35
