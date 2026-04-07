@@ -22,6 +22,7 @@ public class ZombieSpawner : MonoBehaviour
     public GameObject bombHitBox,swordHitBox, bulletHitBox;
     public GameObject bomb, spawnedBomb;
     public GameObject player, bulletSpawn;
+    public Color col1, col2;
     public float[] yCoords = { 0.78f, -4.35f, -2.64f, -0.92f, 2.69f };
 
 	public GameObject bullet, spawnedBullet;
@@ -215,9 +216,10 @@ public class ZombieSpawner : MonoBehaviour
         float[] rows = { -4.34f, -2.58f, -0.82f, 0.94f, 2.7f };
         spawnLoc.y = rows[Random.Range(0, 5)];
         spawnedZom = Instantiate(zom, spawnLoc, transform.rotation);
+        
 
         zomScript = spawnedZom.GetComponent<Zombies>();
-
+        zomScript.zombRenderer = spawnedZom.GetComponent<SpriteRenderer>();
 		zomScript.zombieController = spawnedZom.GetComponent<Animator>();
 		zomScript.zombieController.SetBool("IsMoving", true);
 
@@ -226,19 +228,22 @@ public class ZombieSpawner : MonoBehaviour
             zomScript.health = 10;
             zomScript.speed = 1;
             zomScript.type = 1;
+            
         }
         else if (zomType == 2)
         {
             zomScript.health = 10;
             zomScript.speed = 2;
             zomScript.type = 2;
-        }
+			zomScript.zombRenderer.color = col1;
+		}
         else
         {
             zomScript.health = 20;
             zomScript.speed = 0.5f;
             zomScript.type = 3;
-        }
+			zomScript.zombRenderer.color = col2;
+		}
 
 		zombies.Add(spawnedZom);
     }

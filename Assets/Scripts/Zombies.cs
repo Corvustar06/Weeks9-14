@@ -10,6 +10,7 @@ public class Zombies : MonoBehaviour
     public bool inHeart = false;
     public int type;
     public GameObject zom;
+    public SpriteRenderer zombRenderer;
 
     void Start()
     {
