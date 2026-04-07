@@ -9,6 +9,7 @@ public class Zombies : MonoBehaviour
     public float speed, health;
     public bool inHeart = false;
     public int type;
+    public GameObject zom;
 
     void Start()
     {
@@ -19,5 +20,9 @@ public class Zombies : MonoBehaviour
     void Update()
     {
 		
+   }
+
+   public void destroyer(){
+        Destroy(zom);
    }
 }

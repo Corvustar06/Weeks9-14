@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
@@ -13,6 +14,8 @@ public class KeyboardInput : MonoBehaviour
 	bool isMoving = false;
 	bool forward = false;
 	public int currentSlot = 0;
+	public UnityEvent<int> OnSwapWeapon,OnAttacking;
+	
 
 	void Start()
     {
@@ -46,10 +49,10 @@ public class KeyboardInput : MonoBehaviour
 
 	public void OnAttack(InputAction.CallbackContext context)
 	{
-		Debug.Log("Attack!" + context.phase);
-		//Spawn an invisible attack hitbox
-		//check if zombie and hitbox intersect
-		//zombie takes hit or doesn't
+		if (context.performed)
+		{
+			OnAttacking.Invoke(currentSlot);
+		}
 	}
 
 	public void OnPrev(InputAction.CallbackContext context)
@@ -64,6 +67,8 @@ public class KeyboardInput : MonoBehaviour
 			{
 				currentSlot -= 1;
 			}
+
+			OnSwapWeapon.Invoke(currentSlot);
 		}
 		
 	}
@@ -81,6 +86,7 @@ public class KeyboardInput : MonoBehaviour
 			{
 				currentSlot += 1;
 			}
+			OnSwapWeapon.Invoke(currentSlot);
 		}
 	}
 

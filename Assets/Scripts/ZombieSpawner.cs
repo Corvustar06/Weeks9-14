@@ -19,12 +19,19 @@ public class ZombieSpawner : MonoBehaviour
     public GameObject zom, spawnedZom;
     public List<GameObject> zombies, hearts;
     public GameObject heart, spawnedHeart;
+    public GameObject bombHitBox,swordHitBox;
+    public GameObject bomb, spawnedBomb;
+    public GameObject player;
     public float[] yCoords = { 0.78f, -4.35f, -2.64f, -0.92f, 2.69f };
 
     public ZombieDespawner despawner;
     public Zombies zomScript;
+    public Bombs bombScript;
 
     public SpriteRenderer heartRenderer;
+
+    public float bombTimer;
+    public bool timerActive = false;
 
 	void Start()
     {
@@ -98,7 +105,9 @@ public class ZombieSpawner : MonoBehaviour
         //checks to despawn zombies that have left the game bounds
         for(int i = 0;i<zombies.Count;i++){
 			GameObject activeZom = zombies[i];
+			
 			despawner = activeZom.GetComponent<ZombieDespawner>();
+            zomScript = activeZom.GetComponent<Zombies>();
 			Vector3Int zombro = Vector3Int.FloorToInt(activeZom.transform.position);
 
 			if (despawner.bg.cellBounds.Contains(zombro))
@@ -123,6 +132,12 @@ public class ZombieSpawner : MonoBehaviour
                     
 				}
 			}
+
+            if(zomScript.health<=0){
+                zombies.Remove(activeZom);
+				zomScript.zom = activeZom;
+				zomScript.zombieController.SetTrigger("IsKilled");
+            }
 		}
 
         //checks if zombies have reached the hearts
@@ -157,6 +172,22 @@ public class ZombieSpawner : MonoBehaviour
 				}
 			}
 		}
+
+        if(timerActive){
+            bombTimer -= Time.deltaTime;
+            if (bombTimer < 0)
+            {
+                timerActive = false;
+            }
+        }
+        if (bombScript != null)
+        {
+            if (bombScript.sploding)
+            {
+                bombDamage();
+                bombScript.sploding = false;
+            }
+        }
 	}
 
     //random spawns zombies from a random number that changes over time
@@ -208,6 +239,70 @@ public class ZombieSpawner : MonoBehaviour
                 hearts.Add(spawnedHeart);
             }
         }
+    }
+
+    public void bombDamage(){
+        for(int i =0; i<zombies.Count;i++){
+            GameObject activeZom = zombies[i];
+			zomScript = activeZom.GetComponent<Zombies>();
+
+            SpriteRenderer hitRenderer = bombHitBox.GetComponent<SpriteRenderer>();
+
+				
+					if (hitRenderer.bounds.Contains(zomScript.transform.position))
+					{
+                        zomScript.health -= 15;
+                        zomScript.zombieController.SetTrigger("IsHit");
+					}
+				
+			
+		}
+    }
+
+    public void spawnBomb(){
+        if (!timerActive)
+        {
+            spawnedBomb = Instantiate(bomb, player.transform.position, transform.rotation);
+            bombScript = spawnedBomb.GetComponent<Bombs>();
+            bombHitBox = bombScript.hitBox;
+            bombTimer = 5;
+            timerActive = true;
+        }
+    }
+
+    public void swordDamage(){
+        
+		for (int i = 0; i < zombies.Count; i++)
+		{
+			GameObject activeZom = zombies[i];
+			zomScript = activeZom.GetComponent<Zombies>();
+
+			SpriteRenderer hitRenderer = swordHitBox.GetComponent<SpriteRenderer>();
+
+
+			if (hitRenderer.bounds.Contains(zomScript.transform.position))
+			{
+				zomScript.health -= 5;
+				zomScript.zombieController.SetTrigger("IsHit");
+			}
+
+
+		}
+	}
+
+    public void attack(int weapon){
+        if (weapon == 0)
+        {
+            spawnBomb();
+        }
+        else if (weapon == 1)
+        {
+            
+        }
+        else if (weapon == 2)
+        {
+			swordDamage();
+		}
     }
     
 }
