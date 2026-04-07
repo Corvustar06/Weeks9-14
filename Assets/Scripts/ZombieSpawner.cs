@@ -36,6 +36,7 @@ public class ZombieSpawner : MonoBehaviour
 
     public float bombTimer;
     public bool timerActive = false;
+    public int currentSlot;
 
 	void Start()
     {
@@ -222,6 +223,7 @@ public class ZombieSpawner : MonoBehaviour
         zomScript.zombRenderer = spawnedZom.GetComponent<SpriteRenderer>();
 		zomScript.zombieController = spawnedZom.GetComponent<Animator>();
 		zomScript.zombieController.SetBool("IsMoving", true);
+        zomScript.type = zomType;
 
         if (zomType == 1)
         {
@@ -272,7 +274,14 @@ public class ZombieSpawner : MonoBehaviour
 				
 					if (hitRenderer.bounds.Contains(zomScript.transform.position))
 					{
-                        zomScript.health -= 15;
+                        if (zomScript.type == 3)
+                        {
+                            zomScript.health -= 5;
+                        }
+                        else
+                        {
+                            zomScript.health -= 15;
+                        }
                         zomScript.zombieController.SetTrigger("IsHit");
 					}
 				
@@ -303,7 +312,14 @@ public class ZombieSpawner : MonoBehaviour
 
 			if (hitRenderer.bounds.Contains(zomScript.transform.position))
 			{
-				zomScript.health -= 5;
+                if (zomScript.type == 1)
+                {
+                    zomScript.health -= 2;
+                }
+                else
+                {
+                    zomScript.health -= 5;
+                }
 				zomScript.zombieController.SetTrigger("IsHit");
 
 			}
@@ -335,7 +351,14 @@ public class ZombieSpawner : MonoBehaviour
 
 				if (hitRenderer.bounds.Contains(zomScript.transform.position))
                 {
-                    zomScript.health -= 5;
+                    if (zomScript.type == 2)
+                    {
+                        zomScript.health -= 2;
+                    }
+                    else
+                    {
+                        zomScript.health -= 5;
+                    }
                     zomScript.zombieController.SetTrigger("IsHit");
                     bullets.Remove(activeBullet);
                     Destroy(activeBullet);
@@ -345,6 +368,7 @@ public class ZombieSpawner : MonoBehaviour
     }
 
 	public void attack(int weapon){
+        currentSlot = weapon;
         if (weapon == 0)
         {
             spawnBomb();

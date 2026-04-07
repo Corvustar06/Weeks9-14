@@ -42,6 +42,7 @@ public class Bombs : MonoBehaviour
 
     public void destroy(){
         animator.SetBool("isSploding", false);
+        sploding = false;
         sr.enabled = false;
     }
 }
