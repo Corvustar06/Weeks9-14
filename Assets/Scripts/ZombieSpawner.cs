@@ -197,7 +197,7 @@ public class ZombieSpawner : MonoBehaviour
         for(int i=0; i< bullets.Count; i++){
             GameObject activeBullet = bullets[i];
             MoveBullet bulletScript = activeBullet.GetComponent<MoveBullet>();
-            if (bulletScript.transform.position.x > 10)
+            if (bulletScript.transform.position.x > 15)
             {
                 bullets.Remove(activeBullet);
                 Destroy(activeBullet);
